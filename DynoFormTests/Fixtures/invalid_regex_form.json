@@ -1,0 +1,13 @@
+{
+  "form_title": "Invalid Regex",
+  "fields": [
+    {
+      "id": "code",
+      "order": 1,
+      "type": "TEXT",
+      "label": "Code",
+      "regex_pattern": "[invalid(",
+      "required": false
+    }
+  ]
+}

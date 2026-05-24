@@ -1,0 +1,48 @@
+{
+  "theme": {
+    "background_color": "#F9FAFB",
+    "text_color": "#1F2937",
+    "border_color": "#9CA3AF",
+    "error_color": "#DC2626"
+  },
+  "form_title": "Edge Case Form",
+  "fields": [
+    {
+      "id": "valid_text",
+      "order": 1,
+      "type": "TEXT",
+      "subtype": "PLAIN",
+      "label": "Valid Text Field",
+      "required": true
+    },
+    {
+      "id": "broken_field",
+      "order": 2
+    },
+    {
+      "id": "unknown_widget",
+      "order": 3,
+      "type": "DATE_PICKER",
+      "label": "Should Be Ignored"
+    },
+    {
+      "id": "networks",
+      "order": 4,
+      "type": "DROPDOWN",
+      "label": "Networks",
+      "allow_multiple": true,
+      "default_values": ["net_invalid", "net_meta"],
+      "options": [
+        { "id": "net_meta", "label": "Meta" },
+        { "id": "net_google", "label": "Google" }
+      ]
+    },
+    {
+      "id": "empty_dropdown",
+      "order": 5,
+      "type": "DROPDOWN",
+      "label": "No Options",
+      "options": []
+    }
+  ]
+}

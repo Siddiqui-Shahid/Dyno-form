@@ -1,0 +1,35 @@
+{
+  "form_title": "Sample",
+  "fields": [
+    {
+      "id": "name",
+      "order": 1,
+      "type": "TEXT",
+      "subtype": "PLAIN",
+      "label": "Name",
+      "required": true
+    },
+    {
+      "id": "networks",
+      "order": 2,
+      "type": "DROPDOWN",
+      "label": "Networks",
+      "allow_multiple": true,
+      "options": [
+        { "id": "a", "label": "A" }
+      ]
+    },
+    {
+      "id": "terms",
+      "order": 3,
+      "type": "CHECKBOX",
+      "label": "Accept"
+    },
+    {
+      "id": "notify",
+      "order": 4,
+      "type": "TOGGLE",
+      "label": "Notify"
+    }
+  ]
+}

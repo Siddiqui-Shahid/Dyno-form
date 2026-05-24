@@ -1,0 +1,26 @@
+{
+  "form_title": "Duplicate IDs",
+  "fields": [
+    {
+      "id": "field_a",
+      "order": 1,
+      "type": "TEXT",
+      "label": "First",
+      "required": false
+    },
+    {
+      "id": "field_a",
+      "order": 2,
+      "type": "TEXT",
+      "label": "Duplicate",
+      "required": false
+    },
+    {
+      "id": "field_b",
+      "order": 3,
+      "type": "TEXT",
+      "label": "Unique",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "form_title": "Unknown Type",
+  "fields": [
+    {
+      "id": "valid",
+      "order": 1,
+      "type": "TEXT",
+      "subtype": "PLAIN",
+      "label": "Valid"
+    },
+    {
+      "id": "picker",
+      "order": 2,
+      "type": "DATE_PICKER",
+      "label": "Ignored"
+    }
+  ]
+}

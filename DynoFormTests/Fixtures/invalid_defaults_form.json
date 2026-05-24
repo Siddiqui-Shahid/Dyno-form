@@ -1,0 +1,16 @@
+{
+  "form_title": "Defaults",
+  "fields": [
+    {
+      "id": "networks",
+      "order": 1,
+      "type": "DROPDOWN",
+      "label": "Networks",
+      "allow_multiple": true,
+      "default_values": ["invalid_id", "valid_id"],
+      "options": [
+        { "id": "valid_id", "label": "Valid" }
+      ]
+    }
+  ]
+}
